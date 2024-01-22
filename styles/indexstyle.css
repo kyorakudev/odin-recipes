@@ -3,16 +3,15 @@
 }
 
 body {
-    background: rgb(235,239,149);
     background: linear-gradient(90deg, rgba(235,239,149,1) 0%, rgba(239,213,149,1) 51%, rgba(239,149,149,1) 100%); 
 }
 
 h1 {
-    color: whitesmoke;
+    color: #fff;
 }
 
-ul {
-    list-style: none;
+.centering {
+    text-align: center;
 }
 
 .the-title {
@@ -20,14 +19,20 @@ ul {
     background-color: #D24545;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
     width: 250px;
-    padding: 1em 1em;
-    margin-left: 2em;
-    margin-right: 2em;
+    padding: 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2em;
 }
 
-h1 {
-    text-align: center;
+.the-image {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    margin: auto;
+    max-inline-size: 100%;
+    block-size: auto;
 }
 
 a {
@@ -40,29 +45,21 @@ a:active{
     color: palevioletred;
 }
 
-.the-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 300px;
-    border-radius: 5%;
-}
-
-.centering {
-    margin-left: auto;
-    margin-right: auto;
-    max-inline-size: 100%;
-    block-size: auto;
-}
 
 #the-container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 3em;
+    flex-direction: column;
+    margin-top: 4rem;
     align-items: center;
     text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 1em 1em;
+    padding: 0;
 }
 
 .menu-option1, .menu-option2, .menu-option3 {
@@ -71,15 +68,13 @@ a:active{
     background-color: #D24545;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
     width: 250px;
-    padding: 1em 1em;
-
+    padding: 1rem 1rem;
+    margin: auto;
 }
 
 
-.copy {
-    color: coral;
+footer {
+    color: white;
     text-align: center;
-    margin-top: 15em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15rem;
 }
